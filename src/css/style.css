@@ -1,0 +1,26 @@
+body {
+  color: #999;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 408px;
+  height: 408px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.goblin {
+  background: url("../img/goblin.png");
+  background-position: center;
+  background-size: contain;
+  cursor: url("../img/hammer.svg") 64 20, auto;
+}
