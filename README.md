@@ -1,4 +1,4 @@
 # ahj-events
 
 
-![CI](https://github.com/annmartyn/ahj-hw1/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/annmartyn/ahj-events/actions/workflows/web.yml/badge.svg)
