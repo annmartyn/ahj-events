@@ -38,6 +38,4 @@ cells.forEach((cell) => {
       cell.classList.remove("goblin");
     }
   });
-  
-  document.querySelector('.score').textContent = `Попадания: ${score} |=| Промахи: ${missed}`;
 });
