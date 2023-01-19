@@ -37,5 +37,6 @@ cells.forEach((cell) => {
       missed -= 1;
       cell.classList.remove("goblin");
     }
+    container.querySelector('.score').textContent = `Попадания: ${score} |=| Промахи: ${missed}`;
   });
 });
