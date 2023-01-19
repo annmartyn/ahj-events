@@ -37,6 +37,7 @@ cells.forEach((cell) => {
       missed -= 1;
       cell.classList.remove("goblin");
     }
-    document.querySelector('.score').textContent = `Попадания: ${score} |=| Промахи: ${missed}`;
   });
+  
+  document.querySelector('.score').textContent = `Попадания: ${score} |=| Промахи: ${missed}`;
 });
