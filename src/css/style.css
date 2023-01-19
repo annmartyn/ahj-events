@@ -1,6 +1,8 @@
 body {
-  color: #999;
-}
+    background: #eee;
+    display: flex;
+    justify-content: center;
+  }
 
 .board {
   display: flex;
