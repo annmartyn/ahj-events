@@ -5,11 +5,6 @@ let missed = 0;
 
 cells[goblinPosition].classList.add("goblin");
 
-bindToDOM(container) {
-    this.score = container.querySelector('.score');
-    this.board = container.querySelector('.hole-board');
-}
-
 setInterval(() => {
   const goblinCell = document.querySelector(".goblin");
 
@@ -42,6 +37,6 @@ cells.forEach((cell) => {
       missed -= 1;
       cell.classList.remove("goblin");
     }
-    this.score.querySelector('.score').textContent = `Попадания: ${score} |=| Промахи: ${missed}`;
+    document.bindToDOM(document.querySelector('.score')).textContent = `Попадания: ${score} |=| Промахи: ${missed}`;
   });
 });
