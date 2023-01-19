@@ -31,12 +31,12 @@ setInterval(() => {
 
 cells.forEach((cell) => {
   cell.addEventListener("click", () => {
-    console.log(score);
+   // console.log(score);
     if (cell.classList.contains("goblin")) {
       score += 1;
       missed -= 1;
       cell.classList.remove("goblin");
     }
-    document.bindToDOM(document.querySelector('.score')).textContent = `Попадания: ${score} |=| Промахи: ${missed}`;
+    document.querySelector('.score').textContent = `Попадания: ${score} |=| Промахи: ${missed}`;
   });
 });
