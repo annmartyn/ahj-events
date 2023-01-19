@@ -5,10 +5,10 @@ let missed = 0;
 
 cells[goblinPosition].classList.add("goblin");
 
- bindToDOM(container) {
+bindToDOM(container) {
     this.score = container.querySelector('.score');
     this.board = container.querySelector('.hole-board');
- }
+}
 
 setInterval(() => {
   const goblinCell = document.querySelector(".goblin");
